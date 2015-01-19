@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency "chronic", ">= 0.6.3"
+  s.add_dependency "chronic"
 
   s.add_development_dependency "mocha", ">= 0.9.5"
   s.add_development_dependency "rake"
